@@ -1,0 +1,13 @@
+query{
+  movies{
+    title
+    release_year
+    writer
+    locations
+    director
+    distributor
+    actor_1
+    actor_2
+    actor_3
+  }
+}

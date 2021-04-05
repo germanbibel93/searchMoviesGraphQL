@@ -1,10 +1,14 @@
 .container {
-  min-height: 100vh;
-  padding: 0 0.5rem;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  flex-wrap: wrap;
   align-items: center;
+  width: 100%;
+}
+
+.searchField{
+  float: right;
+  margin-left: 70%;
+  padding: 30px;
 }
 
 .main {
@@ -14,6 +18,13 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.card {
+  flex: 1 0 21%; /* explanation below */
+  margin: 5px;
+  height: 100px;
+  background-color: blue;
 }
 
 .footer {
